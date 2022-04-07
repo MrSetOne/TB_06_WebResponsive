@@ -22,7 +22,8 @@ footer {
     background-color: goldenrod;
 }
 
-main {
+main,
+div {
     max-width: 1000px;
     margin: 0 auto;
 }
