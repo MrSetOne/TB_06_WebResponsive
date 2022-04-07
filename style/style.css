@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+nav,
+footer {
+    background-color: goldenrod;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav ul,
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+a {
+    color: black;
+}
+
+div {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/descarga.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div h1 {
+    color: white;
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+section {
+    background-color: lightblue;
+}
+
+aside {
+    background-color: lightgreen;
+}
+
+@media (min-width: 550px) {
+    nav ul,
+    footer ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    main {
+        display: flex;
+        gap: .5rem;
+    }
+    aside {
+        width: 200rem;
+    }
+}
+
+;
